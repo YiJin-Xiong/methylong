@@ -267,7 +267,7 @@
             "description": "",
             "default": "",
             "properties": {
-                "fiberseq": {
+                "m6a": {
                     "type": "boolean",
                     "description": "Indicate if required m6a calling for fiberseq data"
                 }
