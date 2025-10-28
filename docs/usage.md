@@ -117,6 +117,8 @@ flowchart TD
     A1 -- ".bam" --> Stage3
     A1@{ shape: cyl}
     A2@{ shape: cyl}
+    G1@{ shape: procs}
+    H4@{ shape: procs}
 ```
 
 ## Samplesheet input
