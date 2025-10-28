@@ -162,11 +162,12 @@ nextflow run nf-core/methylong --input ./samplesheet.csv --outdir ./results -pro
 
 This will launch the pipeline with the `docker` configuration profile. See below for more information about profiles.
 
-default workflow is: 
+default workflow is:
 
-``` 
+```
 preprocessing (ONT) --> genome alignment --> methylation calling --> SNV calling --> haplotype phasing --> DMR calling
 ```
+
 **Example command for PacBio unmodified BAM inputs is as follows:**
 
 ```bash
