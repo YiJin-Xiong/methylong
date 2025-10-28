@@ -86,6 +86,11 @@
             "mainEntity": {
                 "@id": "main.nf"
             },
+            "mentions": [
+                {
+                    "@id": "#87fd1659-070b-452b-8e9a-06ca091627c6"
+                }
+            ],
             "name": "nf-core/methylong"
         },
         {
@@ -147,7 +152,38 @@
             "url": {
                 "@id": "https://www.nextflow.io/"
             },
-            "version": "!>=24.04.2"
+            "version": "!>=25.04.0"
+        },
+        {
+            "@id": "#87fd1659-070b-452b-8e9a-06ca091627c6",
+            "@type": "TestSuite",
+            "instance": [
+                {
+                    "@id": "#096751e5-8220-4c44-a7d9-c5cf584ceacf"
+                }
+            ],
+            "mainEntity": {
+                "@id": "main.nf"
+            },
+            "name": "Test suite for nf-core/methylong"
+        },
+        {
+            "@id": "#096751e5-8220-4c44-a7d9-c5cf584ceacf",
+            "@type": "TestInstance",
+            "name": "GitHub Actions workflow for testing nf-core/methylong",
+            "resource": "repos/nf-core/methylong/actions/workflows/nf-test.yml",
+            "runsOn": {
+                "@id": "https://w3id.org/ro/terms/test#GithubService"
+            },
+            "url": "https://api.github.com"
+        },
+        {
+            "@id": "https://w3id.org/ro/terms/test#GithubService",
+            "@type": "TestService",
+            "name": "Github Actions",
+            "url": {
+                "@id": "https://github.com"
+            }
         },
         {
             "@id": "assets/",
