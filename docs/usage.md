@@ -11,9 +11,9 @@ The nf-core/methylong pipeline provides long-read specific workflows for DNA met
 ```mermaid
 ---
 config:
-  theme: neutral
+  theme: mc
   layout: elk
-  look: handDrawn
+  look: classic
 ---
 flowchart TD
  subgraph Stage1["Input data"]
